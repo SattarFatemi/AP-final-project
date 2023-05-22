@@ -1,0 +1,9 @@
+2022/05/27 15:39:52 INFO Main Main.start(Main.java:41) - App is started
+2022/05/27 15:39:58 INFO SetNewPasswordPage GuiController.SetNewPasswordPage.savePassword(SetNewPasswordPage.java:56) - ali Login
+2022/05/27 15:40:07 ERRORUniversity Logic.Models.University.findTeacherByNumber(University.java:58) - cant find teacher by number for null
+2022/05/27 15:40:07 ERRORUniversity Logic.Models.University.findTeacherByNumber(University.java:58) - cant find teacher by number for null
+2022/05/27 15:40:07 ERRORUniversity Logic.Models.University.findTeacherByNumber(University.java:58) - cant find teacher by number for null
+2022/05/27 15:40:07 ERRORUniversity Logic.Models.University.findTeacherByNumber(University.java:58) - cant find teacher by number for null
+2022/05/27 15:40:07 ERRORUniversity Logic.Models.University.findTeacherByNumber(University.java:58) - cant find teacher by number for null
+2022/05/27 15:40:16 INFO Controller Logic.Controller.logout(Controller.java:84) - ali Logout
+2022/05/27 15:40:16 INFO Save Logic.Save.Save.saveChanges(Save.java:20) - Changes Saved

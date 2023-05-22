@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiController.Teacher.ProfilePage">
+   <children>
+      <AnchorPane layoutX="190.0" minHeight="0.0" minWidth="0.0" prefHeight="700.0" prefWidth="911.0">
+         <padding>
+            <Insets bottom="20.0" left="40.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <VBox layoutX="33.0" layoutY="15.0" prefHeight="670.0" prefWidth="732.0" spacing="10.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Nam va Name Khanevadegi :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="nameLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="20.0" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Code Melli :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="nationalCodeLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="73.0" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Shomareh Ostadi :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="teacherNumberLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Shomareh Mobile :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="phoneNumberLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="phoneNumberTextField" prefHeight="26.0" prefWidth="202.0">
+                           <HBox.margin>
+                              <Insets right="-15.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Button fx:id="setPhoneNumberButton" mnemonicParsing="false" onAction="#setPhoneNumber" text="Sabt" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="179.0" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Email :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="emailLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="emailTextField" prefHeight="26.0" prefWidth="202.0">
+                           <HBox.margin>
+                              <Insets right="-15.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Button fx:id="setEmailButton" mnemonicParsing="false" onAction="#setEmail" text="Sabt" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="284.0" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Daneshkadeh :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="nameOfDepartmentLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="390.0" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Shomareh Otagh :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="roomNumberLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="232.0" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Adrese Aks :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="imagePathLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="imagePathTextField" prefHeight="26.0" prefWidth="202.0">
+                           <HBox.margin>
+                              <Insets right="-15.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Button fx:id="setImagePathButton" mnemonicParsing="false" onAction="#setImagePath" text="Sabt" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="443.0" prefHeight="42.0" prefWidth="711.0" spacing="20.0">
+                     <children>
+                        <Label text="Darageh Ostadi :">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="teacherLevelLabel" layoutX="10.0" layoutY="22.0" text="Label">
+                           <font>
+                              <Font name="Montserrat Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="656.0" layoutY="29.0" prefHeight="210.0" prefWidth="218.0" spacing="10.0">
+               <children>
+                  <ImageView fx:id="userImageView" fitHeight="150.0" fitWidth="112.5" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="usernameLabel" text="Seyed Sattar Lotfi Fatemi">
+                     <font>
+                        <Font name="Montserrat SemiBold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="userEmailLabel" layoutX="10.0" layoutY="160.0" text="sattarsut00@gmail.com">
+                     <font>
+                        <Font name="Montserrat Light" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <VBox alignment="TOP_CENTER" layoutX="-8.0" layoutY="4.0" prefHeight="268.0" prefWidth="190.0" spacing="10.0">
+         <children>
+            <Button fx:id="exitButton" mnemonicParsing="false" onAction="#logout" prefHeight="40.0" prefWidth="109.0" style="-fx-background-color: #e74c3c;" text="EXIT" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat Regular" size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#backToPreviousScene" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: #2c3e50;" text="BACK" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat Regular" size="11.0" />
+               </font>
+            </Button>
+            <VBox alignment="CENTER" maxHeight="88.0" prefHeight="50.0" prefWidth="143.0" spacing="5.0">
+               <children>
+                  <Label text="Akharin Vorood">
+                     <font>
+                        <Font name="Montserrat Light" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lastVisitLabel" text="1400/2/19 19:00">
+                     <font>
+                        <Font name="Montserrat Medium" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" maxHeight="88.0" prefHeight="50.0" prefWidth="138.0" spacing="5.0">
+               <children>
+                  <Label text="Zamane Jari">
+                     <font>
+                        <Font name="Montserrat Light" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="currentTimeLabel" text="1400/2/20 20:30">
+                     <font>
+                        <Font name="Montserrat Medium" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="-8.0" layoutY="252.0" prefHeight="365.0" prefWidth="190.0" spacing="10.0">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <children>
+            <Button fx:id="registryButton" mnemonicParsing="false" onAction="#goToRegistryPage" prefWidth="82.0" style="-fx-background-color: #2c3e50;" text="Sabtenam" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat ExtraLight" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <Button fx:id="educationButton" layoutX="42.0" layoutY="64.0" mnemonicParsing="false" onAction="#goToEducationPage" style="-fx-background-color: #2c3e50;" text="Amoozeshi" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat ExtraLight" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <Button fx:id="reportButton" layoutX="42.0" layoutY="20.0" mnemonicParsing="false" onAction="#goToReportPage" style="-fx-background-color: #2c3e50;" text="Karnameh" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat ExtraLight" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <Button fx:id="profileButton" layoutX="42.0" layoutY="107.0" mnemonicParsing="false" onAction="#goToProfilePage" style="-fx-background-color: #2c3e50;" text="Karbar" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat ExtraLight" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="-8.0" layoutY="615.0" prefHeight="82.0" prefWidth="190.0" spacing="10.0">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <children>
+            <Button fx:id="mainPageButton" mnemonicParsing="false" onAction="#goToMainPage" prefWidth="82.0" style="-fx-background-color: #2c3e50;" text="Safheh Asli" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat Medium" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Button>
+            <ToggleButton fx:id="themeToggleButton" mnemonicParsing="false" style="-fx-background-color: #2c3e50;" text="Dark" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat Medium" size="12.0" />
+               </font>
+            </ToggleButton>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

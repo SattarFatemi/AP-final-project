@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" layoutX="25.0" layoutY="25.0" minHeight="82.0" minWidth="912.0" prefHeight="82.0" prefWidth="912.0" spacing="20.0" style="-fx-border-color: green;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+    <children>
+        <VBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="167.0" spacing="10.0">
+            <children>
+                <Label fx:id="title" text="Name Ostad">
+                    <font>
+                        <Font name="Montserrat Medium" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </VBox>
+        <VBox alignment="CENTER_LEFT" layoutX="21.0" layoutY="21.0" prefHeight="60.0" prefWidth="714.0" spacing="10.0">
+            <children>
+                <Label fx:id="text" prefHeight="59.0" prefWidth="709.0" text="MatnMatnMatnMatnMatnMatnMatnMatnMatnMatnMatn" wrapText="true">
+                    <font>
+                        <Font name="Montserrat Medium" size="14.0" />
+                    </font>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                </Label>
+            </children>
+        </VBox>
+    </children>
+</HBox>
