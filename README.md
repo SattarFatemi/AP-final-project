@@ -23,19 +23,18 @@ Written in Java, this was the second semester project for the Advanced Programmi
 * **Grade management**: grades list, grade entry by instructors, viewing grades
 * **Class / Student management**: assistants & professors can manage class rosters, oversee enrolled students
 * **Administrative operations**: processes like course offering, allocation, etc.
-* **Persistent data**: backing store (e.g. files, database, as implemented) for user/course/grade records
-* **GUI / UI elements**: (if present) windows/forms for interaction
+* **Persistent data**: backing store for user/course/grade records
+* **GUI / UI elements**: windows/forms for interaction
 
 ---
 
 ## Technologies & Architecture
 
 * Language: **Java**
-* Build tool: **Gradle** (wrapper included)
+* Build tool: **Gradle**
 * Project layout: follows standard `src/main/java` convention
-* (Optional) UI framework: e.g., Swing or JavaFX (depending on your implementation)
-* Data persistence: (depending on your code) file-based storage, serialization, or embedded database
-* Modular components: separation of domain / model, controllers, and UI layers
+* UI framework: JavaFX
+* Data persistence: database (using Hibernate ORM)
 
 ---
 
@@ -53,18 +52,11 @@ Written in Java, this was the second semester project for the Advanced Programmi
 * **Professor**
 
   * View classes they’re teaching
-  * Enter or update grades
+  * Enter or update grades and finalizing scores
   * Manage class rosters
-  * View student info
 
 * **Educational Assistant / Admin**
 
   * Oversee student/course assignments
   * Manage users, assign courses, approve registration
   * General system maintenance
-
-### Workflow Examples
-
-* **Student workflow**: login → browse offered courses → register → view schedule → check grades
-* **Professor workflow**: login → see classes → select class → view students → assign grades
-* **Assistant workflow**: login → manage courses / enrollments → assist professors / students
